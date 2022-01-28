@@ -47,7 +47,7 @@ export default function OrderSummary() {
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
 					Frontend Mentor
 				</a>
-				. Coded by <a href="#">Abishek Bardewa</a>.
+				. Coded by <a href="https://github.com/abishekbardewa/order-summary-card">Abishek Bardewa</a>.
 			</div>
 		</>
 	);
