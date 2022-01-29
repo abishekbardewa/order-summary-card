@@ -9,7 +9,7 @@
 	flex-direction: column;
 
 	align-items: center;
-	margin: 4% auto;
+	margin: 6% auto 1%;
 	border-radius: 20px;
 	width: 400px;
 	background-color: #ffffff;
@@ -25,10 +25,10 @@
 }
 
 .card-details h1 {
-	padding: 20px;
+	padding: 10px;
 }
 .card-details p {
-	padding: 10px 32px 0px;
+	padding: 0px 32px 0px;
 	color: var(--desaturated-blue);
 }
 .order-info {
@@ -106,7 +106,7 @@
 	}
 
 	.card-details p {
-		padding: 20px 15px 0px;
+		padding: 0px 15px 0px;
 	}
 	.order-info {
 		padding: 20px 15px;

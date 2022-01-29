@@ -4,14 +4,13 @@ import IconMusic from '../assets/images/icon-music.svg';
 import './OrderSummary.css';
 export default function OrderSummary() {
 	return (
-		<>
-			{/* <div className="container"> */}
+		<main>
 			<div className="order-summary-card">
 				<div className="card-image">
 					<img src={IllustrationHero} alt="" />
 				</div>
 				<div className="card-details">
-					<h2>Order Summary</h2>
+					<h1>Order Summary</h1>
 					<p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
 				</div>
 				<div className="order-info">
@@ -23,25 +22,20 @@ export default function OrderSummary() {
 						</div>
 					</div>
 					<div>
-						<a href="#" className="">
+						<a href="#" aria-label="change your order">
 							change
 						</a>
 					</div>
 				</div>
 				<div className="btn-area">
-					{/* <div> */}
 					<button type="submit" className="payment-btn">
 						Proceed to Payment
 					</button>
-					{/* </div> */}
-					{/* <div className="payment-btn"> */}
 					<button type="submit" className="cancel-btn">
 						Cancel Order
 					</button>
-					{/* </div> */}
 				</div>
 			</div>
-			{/* </div> */}
 			<div class="attribution">
 				Challenge by{' '}
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
@@ -49,6 +43,6 @@ export default function OrderSummary() {
 				</a>
 				. Coded by <a href="https://github.com/abishekbardewa/order-summary-card">Abishek Bardewa</a>.
 			</div>
-		</>
+		</main>
 	);
 }
